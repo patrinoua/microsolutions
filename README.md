@@ -57,7 +57,7 @@ Now, do the same on `/server`.
 
 Don't forget to make sure you are on the right branch! (branch **review** for example) 
 
-##Yarn install
+## Yarn install
 will checkout package.json and yarn.lock and install all the necessary packages.
 ```
 cd client
