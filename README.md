@@ -62,7 +62,7 @@ and a **server side**, mostly used to retrieve key-word translations.
 You will need to **yarn install** and **start** the project in both these directories.
 
 Before starting the project you will need to create the **.env** file in both these directories.
-**.env** files tell yarn witch port to use while running the project.
+**.env** files tell yarn witch localhost port to use while running the project.
 
 ### client
 Inside `/client` directory
@@ -77,14 +77,14 @@ You are ready to run the client side:
 
 ```yarn start```
 
-#### server
+### server
 
-follow the same procedure for the server:
+Follow the same procedure for the server:
 
 Inside `/server` directory
 
-Create the *.env* file by copying .env.example
+Create the **.env** file by copying .env.example as before
 
-run the server by running: 
+Run the server by running: 
 
 ```yarn watch```
