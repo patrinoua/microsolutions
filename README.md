@@ -19,7 +19,7 @@ go to https://bitbucket.org/modifi-dev/kindynos/src/master/
 
 press **clone**
 
-open terminal, go to projects' directory and write
+open terminal, go to the projects' directory and write
 ```
 git clone git@bitbucket.org:modifi-dev/modif-ui.git
 ```
@@ -27,9 +27,16 @@ git clone git@bitbucket.org:modifi-dev/modif-ui.git
 If this is the first time you copy a project to a local device, at this stage you will be blocked and asked to provide an SSH key. 
 
 #### SSH Key
-To generate an **SSH key** follow the instructions on this link
-https://docs.joyent.com/public-cloud/getting-started/ssh-keys/generating-an-ssh-key-manually/manually-generating-your-ssh-key-in-mac-os-x 
-and then find it it with terminal inside the hidden folder [path]/.ssh, copy it and add it to your bitbucket account. 
+To generate an **SSH key** follow the instructions on this [link](https://docs.joyent.com/public-cloud/getting-started/ssh-keys/generating-an-ssh-key-manually/manually-generating-your-ssh-key-in-mac-os-x)
+
+Open the terminal and look inside the hidden .ssh folder 
+```
+cd ~/.ssh
+```
+for the generated keys.
+ 
+Following the link instructions, copy that and add it to your bit-bucket account. 
+
 
 \
 if you haven't done this before, you will also need to 
@@ -37,7 +44,7 @@ if you haven't done this before, you will also need to
 ```
 npm login
 username: [your email]
-password: [your password...]
+password: [your password]
 ```
 ## .env
 Find the .env.example file in `/client` and copy it. 
@@ -64,7 +71,7 @@ Now everything should be set up.
 
 Next, 
 
-## Start the project!
+## Start the project
 ```
 cd client
 yarn start
