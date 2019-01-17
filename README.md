@@ -9,7 +9,6 @@
 ##### and smaller?
 
 ###### and smaller???
-
 # kindynos
 
 ## Copy the project from Git
@@ -32,19 +31,26 @@ This will tell yarn witch port to use while running this project.
 checkout you are on the right branch! (eg review) 
 
 ## Login to NPM
+```
 npm login
 username: your email
 password: your password...
-Yarn install
+```
+##Yarn install
+```
 cd client
 yarn install
 cd server 
 yarn install
+```
 Now everything should be set up.
 Next, 
 
 ## Start the project!
+```
 cd client
 yarn start
 cd server 
 yarn watch
+```
+
