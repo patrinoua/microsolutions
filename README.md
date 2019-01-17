@@ -57,10 +57,11 @@ git checkout review
 
 
 ## Running the app
-MODIFI apps usually have a client side where most of the functionality is built 
-and a server side, mostly used to retrieve key-word translations. 
-You will need to yarn install and start the project in both these directories:
+MODIFI apps usually have a **client side** where most of the functionality is built 
+and a **server side**, mostly used to retrieve key-word translations. 
+You will need to **yarn install** and **start** the project in both these directories.
 
+Before starting the project you will need to create the **.env** file in both these directories.
 **.env** files tell yarn witch port to use while running the project.
 
 ### client
