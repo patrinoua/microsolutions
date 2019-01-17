@@ -12,50 +12,91 @@
 
 # kindynos
 
-## Copy the project from Git
-The first step is to copy the project files from bit-bucket into the projects' file like this
+Repository for frontend service of the Risk Office.
 
-go to https://bitbucket.org/modifi-dev/kindynos/src/master/
+## Prerequisites
+- node v10.x
+- npm v6.x
+- yarn v1.10.x
 
-press **clone**
+## Setting up a project for the first time on your computer
 
-open terminal, go to the projects' directory and write
-```
-git clone git@bitbucket.org:modifi-dev/modif-ui.git
-```
-
-If this is the first time you copy a project to a local device, at this stage you will be blocked and asked to provide an SSH key. 
-
-#### SSH Key
-To generate an **SSH key** follow the instructions on this [link](https://docs.joyent.com/public-cloud/getting-started/ssh-keys/generating-an-ssh-key-manually/manually-generating-your-ssh-key-in-mac-os-x)
+### SSH Key
+To generate an **SSH key** follow the instructions on this [link](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html)
 
 Open the terminal and look inside the hidden .ssh folder 
 ```
 cd ~/.ssh
 ```
 for the generated keys.
- 
+
+
+This will work on a Mac, but if you are on another OS, it is possible that you will need to google in order to find the .ssh on the file system.
+
 Following the link instructions, copy that and add it to your bit-bucket account. 
 
-
-\
-if you haven't done this before, you will also need to 
-#### Login to NPM
+### Login to NPM
 ```
 npm login
 username: [your email]
 password: [your password]
 ```
-## .env
-Find the .env.example file in `/client` and copy it. 
 
-On the copy, remove the .example ending, so keep a file with the name **.env** 
+## Preparing your Project
 
-The .env file will tell yarn witch port to use while running this project.
+### Copy the project from Git
+The first step is to copy the project files from bit-bucket into the projects' file like this
 
-Now, do the same on `/server`.
+go to https://bitbucket.org/modifi-dev/kindynos/src/master/
 
-Don't forget to make sure you are on the right branch! (branch **review** for example) 
+press **Clone**
+
+Open Terminal, go to your projects' directory and paste the command provided by the clone dialog:
+```
+git clone git@bitbucket.org:modifi-dev/kindynos.git
+```
+
+### Select which Branch to work on
+
+- **review**: Default development branch, used for Product review before something goes to production (Link)
+- **review-sf**: Seller Financing Features
+- **master**: Code that runs in production 
+
+for example
+```
+git checkout review
+```
+
+
+## Running the app
+MODIFI apps usually have a client side where most of the functionality is built 
+and a server side, mostly used to retrieve key-word translations. 
+You will need to yarn install and start the project in both these directories:
+
+**.env** files tell yarn witch port to use while running the project.
+
+### client
+Inside `/client` directory
+
+Find the .env.example file and make a duplicate. 
+
+On the copy, remove the .example ending. 
+
+Now the new file you created, **.env** has the same contents as .env.example .
+
+You are now ready to run the client side:
+```yarn start```
+
+#### server
+
+follow the same procedure for the server: 
+
+Inside `/server` directory
+
+Create the *.env* file by copying .env.example
+
+run the server: 
+```yarn watch```
 
 ## Yarn install
 will checkout package.json and yarn.lock and install all the necessary packages.
@@ -67,7 +108,7 @@ yarn install
 cd server 
 yarn install
 ```
-Now everything should be set up.
+Now everything should be set up, and good to go.
 
 Next, 
 
