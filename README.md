@@ -1,15 +1,3 @@
-# I made this file
-
-## To experiment with github read me formatting styles
-
-### so let's see
-
-#### Does this still get smaller?
-
-##### and smaller?
-
-###### and smaller???
-
 # kindynos
 
 Repository for frontend service of the Risk Office.
@@ -22,7 +10,7 @@ Repository for frontend service of the Risk Office.
 ## Setting up a project for the first time on your computer
 
 ### SSH Key
-To generate an **SSH key** follow the instructions on this [link](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html)
+To generate an **SSH key** follow the instructions on this [link](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html).
 
 Open the terminal and look inside the hidden .ssh folder 
 ```
@@ -31,7 +19,7 @@ cd ~/.ssh
 for the generated keys.
 
 
-This will work on a Mac, but if you are on another OS, it is possible that you will need to google in order to find the .ssh on the file system.
+This will work on a Mac, but if you are on another OS, it is possible that you will need to google in order to find out how to access .ssh on the file system.
 
 Following the link instructions, copy that and add it to your bit-bucket account. 
 
@@ -84,41 +72,18 @@ On the copy, remove the .example ending.
 
 Now the new file you created, **.env** has the same contents as .env.example .
 
-You are now ready to run the client side:
+You are ready to run the client side:
+
 ```yarn start```
 
 #### server
 
-follow the same procedure for the server: 
+follow the same procedure for the server:
 
 Inside `/server` directory
 
 Create the *.env* file by copying .env.example
 
-run the server: 
+run the server by running: 
+
 ```yarn watch```
-
-## Yarn install
-will checkout package.json and yarn.lock and install all the necessary packages.
-```
-cd client
-yarn install
-```
-```
-cd server 
-yarn install
-```
-Now everything should be set up, and good to go.
-
-Next, 
-
-## Start the project
-```
-cd client
-yarn start
-```
-```
-cd server 
-yarn watch
-```
-### Enjoy!
