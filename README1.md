@@ -2,20 +2,20 @@
 
 Repository for frontend service of the Risk Office.
 
-###Index
+### Table of contents
 
 - [Prerequisites](#prerequisites)
 
-- [Setting up a project for the first time on your computer](#markdown-header-setting-up-a-project-for-the-first-time-on-your-computer)
-    - [SSH Key](#markdown-header-ssh-key)
-    - [Login to NPM](#markdown-header-login-to-npm)
+- [Setting up a project for the first time on your computer](#setting-up-a-project-for-the-first-time-on-your-computer)
+    - [SSH Key](#ssh-key)
+    - [Login to NPM](#login-to-npm)
 
-- [Preparing your Project](#markdown-header-preparing-your-project) 
-    - [Copy the project from Git](#markdown-header-copy-the-project-from-git) 
-    - [Select which Branch to work on](#markdown-header-select-which-branch-to-work-on)
+- [Preparing your Project](#preparing-your-project) 
+    - [Copy the project from Git](#copy-the-project-from-git) 
+    - [Select which Branch to work on](#select-which-branch-to-work-on)
 
-- [Running the app](#markdown-header-running-the-app)
-    - [Prepare and start the client](#markdown-header-prepare-and-start-the-client) 
+- [Running the app](#running-the-app)
+    - [Prepare and start the client](#prepare-and-start-the-client) 
     - [Prepare and start the server](#prepare-and-start-the-server)
 
 
