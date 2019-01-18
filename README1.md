@@ -1,6 +1,6 @@
 # kindynos
 
-Repository for frontend service of the Risk Office.
+Repository for the Frontend Service of the Risk Office.
 
 ### Table of contents
 
