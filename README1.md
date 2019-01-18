@@ -4,7 +4,7 @@ Repository for frontend service of the Risk Office.
 
 ###Index
 
-- [Prerequisites](#markdown-header-prerequisites)
+- [Prerequisites](#prerequisites)
 
 - [Setting up a project for the first time on your computer](#markdown-header-setting-up-a-project-for-the-first-time-on-your-computer)
     - [SSH Key](#markdown-header-ssh-key)
@@ -16,7 +16,7 @@ Repository for frontend service of the Risk Office.
 
 - [Running the app](#markdown-header-running-the-app)
     - [Prepare and start the client](#markdown-header-prepare-and-start-the-client) 
-    - [Prepare and start the server](#markdown-header-prepare-and-start-the-server)
+    - [Prepare and start the server](#prepare-and-start-the-server)
 
 
 
